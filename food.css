@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0px;
+    font-family: 'Alegreya Sans', sans-serif;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+
+.titre{
+    display: flex;
+    width: 250px;
+    padding-top: 15px;
+    margin-left: 50px;
+}
+
+.titre img{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.Réservez{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.Réservez_menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.decouvrez{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+}
+
+
+button{
+    width: 250px;
+    display: flex;
+    background: linear-gradient(rgb(233, 134, 177),rgb(188, 9, 77));
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    justify-content: center;
+
+}
+
+button:hover{
+    background: linear-gradient(rgb(228, 87, 148),rgb(105, 10, 46));
+
+}
+
+.Fonctionnement{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nom_link{
+    display: flex;
+    width: 100%;
+    height: 25px;
+    padding: 15px 0px 15px 50px;
+    margin: 20px 0px;
+}
+
+.link{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.link1,.link2,.link3{
+    display: flex;
+    padding: 20px 25px;
+    width: 350px;
+    border-radius: 15px;
+    background-color:whitesmoke;
+    align-items: center;
+}
+
+.link1:hover,.link2:hover,.link3:hover{
+    background-color:rgb(214, 213, 213);
+}
+
+.num1,.num2,.num3{
+    display: flex;
+    width: 20px;
+    justify-content: center;
+    border-radius: 10px 10px;
+    background-color: rgb(192, 43, 226);
+    color: white;
+    margin-right: 10px;
+}
+
+
+.logo1,.logo2,.logo3{
+    display: flex;
+    margin-right: 5px;
+}
+
+
+.containere_card{
+    display: flex;
+    width: 100%;
+    height: 1700px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    margin-bottom: 80px;
+}
+
+.nom_card{
+    display: flex;
+    width: 100%;
+    height: 25px;
+    padding: 15px 0px 15px 50px;
+}
+
+.card{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+
+.text_1,.text_2,.text_3,.text_4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 10px 0px;
+}
+
+.coeur_1,.coeur_2,.coeur_3,.coeur_4{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+}
+
+path:hover{
+    opacity: 0.6;
+    background-color: rgb(255, 0, 0);
+}
+
+.palette{
+    width: 560px;
+    height: 285px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+
+.palette img{
+    width: 560px;
+    height: 190px;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+.palette:hover{
+    background-color: rgb(215, 211, 211);
+}
+
+
+.note{
+    width: 560px;
+    height: 285px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+
+.note:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+.note img{
+    width: 560px;
+    height: 190px;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+.francaise{
+    width: 560px;
+    height: 285px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.francaise:hover{
+    background-color: rgb(216, 215, 215);
+}
+
+.francaise img{
+    width: 560px;
+    height: 190px;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+.delice{
+    width: 560px;
+    height: 285px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.delice:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+.delice img{
+    width: 560px;
+    height: 190px;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: rgb(41, 32, 32);
+}
+
+@media screen and (width:888px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0%;
+        padding: 0px;
+        font-family: 'Alegreya Sans', sans-serif;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    header{
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+    
+    
+    .titre{
+        display: flex;
+        width: 250px;
+        padding-top: 15px;
+        margin-left: 50px;
+    }
+    
+    .titre img{
+        display: flex;
+        width: 100%;
+        height: 50px;
+    }
+    
+    main{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    
+    .Réservez{
+        display: flex;
+        width: 100%;
+        height: 300px;
+        flex-direction: column;
+        background-color: whitesmoke;
+        padding: 50px;
+    }
+    
+    .Réservez_menu{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    .decouvrez{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    
+    .bouton{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    button{
+        width: 250px;
+        display: flex;
+        background: linear-gradient(rgb(233, 134, 177),rgb(188, 9, 77));
+        color: white;
+        border-radius: 50px;
+        padding: 15px;
+        justify-content: center;
+    
+    }
+    
+    button:hover{
+        background: linear-gradient(rgb(228, 87, 148),rgb(105, 10, 46));
+    
+    }
+    
+    .Fonctionnement{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .nom_link{
+        display: flex;
+        width: 100%;
+        height: 25px;
+        padding: 15px 0px 15px 50px;
+        margin: 20px 0px;
+    }
+    
+    .link{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin: 50px 0px;
+    }
+    
+    .link1,.link2,.link3{
+        display: flex;
+        padding: 20px 25px;
+        width: 350px;
+        border-radius: 15px;
+        background-color:whitesmoke;
+        align-items: center;
+    }
+    
+    .link1:hover,.link2:hover,.link3:hover{
+        background-color:rgb(214, 213, 213);
+    }
+    
+    .num1,.num2,.num3{
+        display: flex;
+        width: 20px;
+        justify-content: center;
+        border-radius: 10px 10px;
+        background-color: rgb(192, 43, 226);
+        color: white;
+        margin-right: 10px;
+    }
+    
+    
+    .logo1,.logo2,.logo3{
+        display: flex;
+        margin-right: 5px;
+    }
+    
+    
+    .containere_card{
+        display: flex;
+        width: 100%;
+        height: 1700px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: whitesmoke;
+        margin-bottom: 80px;
+    }
+    
+    .nom_card{
+        display: flex;
+        width: 100%;
+        height: 25px;
+        padding: 15px 0px 15px 50px;
+    }
+    
+    .card{
+        display: flex;
+        width: 100%;
+        height: 80%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: aqua;
+    }
+    
+    
+    .text_1,.text_2,.text_3,.text_4{
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+        margin: 10px 0px;
+    }
+    
+    .coeur_1,.coeur_2,.coeur_3,.coeur_4{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-right: 10px;
+    }
+    
+    path:hover{
+        opacity: 0.6;
+        background-color: rgb(255, 0, 0);
+    }
+    
+    .palette{
+        width: 560px;
+        height: 285px;
+        background-color: white;
+        border-radius: 25px;
+        margin-bottom: 25px;
+    }
+    
+    
+    .palette img{
+        width: 560px;
+        height: 190px;
+        border-radius: 25px 25px 0px 0px;
+        object-fit: cover;
+    }
+    
+    .palette:hover{
+        background-color: rgb(215, 211, 211);
+    }
+    
+    
+    .note{
+        width: 560px;
+        height: 285px;
+        background-color: white;
+        border-radius: 25px;
+        margin-bottom: 25px;
+    }
+    
+    
+    .note:hover{
+        background-color: rgb(214, 214, 214);
+    }
+    
+    .note img{
+        width: 560px;
+        height: 190px;
+        border-radius: 25px 25px 0px 0px;
+        object-fit: cover;
+    }
+    
+    .francaise{
+        width: 560px;
+        height: 285px;
+        background-color: white;
+        border-radius: 25px;
+    }
+    
+    .francaise:hover{
+        background-color: rgb(216, 215, 215);
+    }
+    
+    .francaise img{
+        width: 560px;
+        height: 190px;
+        border-radius: 25px 25px 0px 0px;
+        object-fit: cover;
+    }
+    
+    .delice{
+        width: 560px;
+        height: 285px;
+        border-radius: 25px;
+        background-color: white;
+    }
+    
+    .delice:hover{
+        background-color: rgb(214, 214, 214);
+    }
+    
+    .delice img{
+        width: 560px;
+        height: 190px;
+        border-radius: 25px 25px 0px 0px;
+        object-fit: cover;
+    }
+    
+    footer{
+        display: flex;
+        width: 100%;
+        background-color: rgb(41, 32, 32);
+    }
+    
+}
